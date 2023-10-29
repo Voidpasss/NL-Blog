@@ -88,3 +88,10 @@ a#scroll-btn:before {
     padding-left: 2cqb;
     text-align: left;
 }
+@media screen and (max-width:600px) {
+    #centreville{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    } 
+} 
