@@ -60,12 +60,31 @@ a#scroll-btn:before {
           opacity: 0;
         }
 }
-#shrimp{
-    width: 25cqb;
-    float: right;
-    position: relative;
-    top: 15px;
+#section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#shrimp:hover{
-    transform: scale(1.05);
+#centreville{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shrimp{
+    height: 33vh;
+    float: left;
+    position: relative;
+    margin-top: 3cqb;
+}
+#shrimptitel{
+    font-size: 5cqb;
+    margin: 0%;
+    margin-top: 3cqb;
+    padding-left: 2cqb;
+    text-align: left;
+}
+#shrimpgedicht{
+    font-size: 3cqb;
+    padding-left: 2cqb;
+    text-align: left;
 }
