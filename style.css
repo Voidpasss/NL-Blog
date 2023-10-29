@@ -63,6 +63,8 @@ a#scroll-btn:before {
 #shrimp{
     width: 25cqb;
     float: right;
+    position: relative;
+    top: 15px;
 }
 #shrimp:hover{
     transform: scale(1.05);
