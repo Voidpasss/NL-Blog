@@ -1,0 +1,69 @@
+*{
+    color: white;
+    font-family: Josefin Sans;
+}
+body{
+    background-color: black;
+    margin: 0%;
+}
+#title{
+    text-align: center;
+    border: 5px double rgb(17, 91, 0);
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+    margin: 0%;
+    padding: 0%;
+    border: 5px double rgb(17, 91, 0);
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: rgb(23, 23, 23);
+}
+.navbar li{
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar li:hover{
+    transform: scale(1.05);
+}
+html {
+    scroll-behavior: smooth;
+}
+.sectiones {
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+    overflow: auto;
+}
+a#scroll-btn:before {
+        animation: move-down 2s infinite;
+}
+@keyframes move-down {
+        80% {
+          opacity: 0.5;
+        }
+        100% {
+          transform: translateY(5.3em);
+          opacity: 0;
+        }
+}
+#shrimp{
+    width: 25cqb;
+    float: right;
+}
+#shrimp:hover{
+    transform: scale(1.05);
+}
