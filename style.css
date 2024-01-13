@@ -9,6 +9,7 @@ body{
 #title{
     text-align: center;
     border: 5px double rgb(17, 91, 0);
+    border-bottom: none;
 }
 .navbar{
     position: sticky;
@@ -43,6 +44,8 @@ html {
     scroll-behavior: smooth;
 }
 .sectiones {
+    border: 5px double rgb(17, 91, 0);
+    border-top: none;
     height: 100vh;
     position: relative;
     padding: 10px;
@@ -71,7 +74,7 @@ a#scroll-btn:before {
     align-items: center;
 }
 #shrimp{
-    height: 33vh;
+    height: 33.33333333vh;
     float: left;
     position: relative;
     margin-top: 3cqb;
@@ -87,6 +90,27 @@ a#scroll-btn:before {
     font-size: 3cqb;
     padding-left: 2cqb;
     text-align: left;
+}
+#lifetext{
+    display: inline-block;
+    width: 29.4vi;
+    float: top;
+    margin: 2.5vi;
+}
+#lachendlezen{
+    display: inline-block;
+    width: 55vi;
+    margin: 2.5vi;
+}
+#lachendlezen a{
+    text-decoration: underline;
+}
+#lachendlezen a:hover{
+    color: green;
+}
+.normtext{
+    font-size: 2cqb;
+    text-align: justify;
 }
 @media screen and (max-width:600px) {
     #centreville{
