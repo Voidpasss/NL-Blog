@@ -50,6 +50,11 @@ html {
     position: relative;
     padding: 10px;
     overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.sectiones::-webkit-scrollbar { 
+    display: none;
 }
 a#scroll-btn:before {
         animation: move-down 2s infinite;
@@ -67,6 +72,11 @@ a#scroll-btn:before {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#section-2{
+    display: flex;
+    justify-content: center;
+    height: inherit;
 }
 #centreville{
     display: flex;
@@ -91,10 +101,12 @@ a#scroll-btn:before {
     padding-left: 2cqb;
     text-align: left;
 }
+#dawg{
+    width: 30vw;
+}
 #lifetext{
     display: inline-block;
     width: 29.4vi;
-    float: top;
     margin: 2.5vi;
 }
 #lachendlezen{
@@ -119,3 +131,17 @@ a#scroll-btn:before {
         align-items: center;
     } 
 } 
+@media screen and (max-width:1100px) {
+    #lifetext{
+        width:85vw;
+    }
+    #lachendlezen{
+        width: 85vw;
+    }
+    #section-2{
+        display: block;
+    }
+    #dawg{
+        display: none;
+    }
+}
