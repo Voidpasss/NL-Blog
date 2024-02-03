@@ -2,6 +2,13 @@
     color: white;
     font-family: Josefin Sans;
 }
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(30, 148, 0);
+    border-radius: 10px;
+}
 body{
     background-color: black;
     margin: 0%;
@@ -40,10 +47,10 @@ body{
 .navbar li:hover{
     transform: scale(1.05);
 }
-html {
+html{
     scroll-behavior: smooth;
 }
-.sectiones {
+.sectiones{
     border: 5px double rgb(17, 91, 0);
     border-top: none;
     height: 100vh;
@@ -53,13 +60,13 @@ html {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-.sectiones::-webkit-scrollbar { 
+.sectiones::-webkit-scrollbar{ 
     display: none;
 }
-a#scroll-btn:before {
+a#scroll-btn:before{
         animation: move-down 2s infinite;
 }
-@keyframes move-down {
+@keyframes move-down{
         80% {
           opacity: 0.5;
         }
